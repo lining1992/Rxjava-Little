@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.joy.littlerx.MainActivity">
+
+    <Button
+        android:id="@+id/btn_base"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基本"
+        />
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map"
+        />
+
+    <Button
+        android:id="@+id/btn_flap_map_iterable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FlapMapIterable"
+        />
+
+    <Button
+        android:id="@+id/btn_flap_map_array"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FlapMapArray"
+        />
+
+    <Button
+        android:id="@+id/btn_flap_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FlapMapSample"
+        />
+
+
+    <Button
+        android:id="@+id/btn_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zip"
+        />
+
+    <Button
+        android:id="@+id/btn_thread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="线程调度"
+        />
+</LinearLayout>
